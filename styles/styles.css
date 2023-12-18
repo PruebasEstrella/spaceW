@@ -1,13 +1,21 @@
-
-/* Richard's page */
 body{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
 }
+
+h1,p{
+    text-align: center;
+}
+
+h1{
+    color: #00a19c;
+}
+
 img{
     max-width: 100%;
 }
+
 .card{
     width: 100%;
     display: flex;
@@ -15,6 +23,7 @@ img{
     justify-content: center;
     align-items: center;
 }
+
 .card img{
     height: 55vh;
     object-fit: cover;
